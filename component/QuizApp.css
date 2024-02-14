@@ -1,0 +1,68 @@
+/* QuizApp.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.box {
+  max-width: 600px;
+  margin: 10% auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(76, 210, 210);
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+#Que-number {
+  color: black; /* Tomato Red */
+  font-weight: bold;
+}
+
+.Que-text {
+  color: purple /* Dodger Blue */
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  background-color: #8795bd;
+  color: black;
+  padding: 20px 23px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(227, 74, 105);
+}
+
+.next {
+  padding: 20px 60px;
+  background-color: crimson;
+  color: black;
+  border: none;
+  margin: 20px;
+  font-size: large;
+}
+
+.next:hover {
+  background-color: aqua;
+}
